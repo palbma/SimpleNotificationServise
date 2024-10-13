@@ -1,0 +1,63 @@
+name: dockercompose7400896309417548495
+services:
+  notesservice:
+    build:
+      context: C:\Users\dolzh\source\repos\NotesService\NotesService
+      dockerfile: Dockerfile
+    depends_on:
+      postgres:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\dolzh\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\dolzh\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  postgres:
+    container_name: my-postgres
+    environment:
+      POSTGRES_DB: myNotesDb
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5433"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\dolzh\source\repos\NotesService\postgres-data
+        target: /var/lib/postgresql/dat
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose7400896309417548495_default

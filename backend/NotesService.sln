@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesService", "NotesService\NotesService.csproj", "{BFE83B52-236A-4C69-A445-CFB76A211CF4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFE83B52-236A-4C69-A445-CFB76A211CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE83B52-236A-4C69-A445-CFB76A211CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE83B52-236A-4C69-A445-CFB76A211CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE83B52-236A-4C69-A445-CFB76A211CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB657CC4-385B-4E08-9849-AC4441143B72}
+	EndGlobalSection
+EndGlobal
