@@ -25,11 +25,11 @@ function App() {
     let notes = await fetchNotes(filter);
     setNotes(notes);
   }
-  return (<section className='p-8 flex flex-row'>
-    <div className='flex flex-col w-1/3 gap-10'> 
+  return (<section className='p-8 flex flex-wrap'>
+    <div className='flex flex-col w-1/2 gap-10'> 
       <CreateNoteForm onCreate = {onCreate}/>
       <Fiter filter={filter} setFilter = {setFilter}/>
-      <ul className='flex flex col gap-5 flex-1'>
+      <ul className='flex flex-col  gap-5 flex-1'>
       {notes.map(n => (
         <li key = {n.id}>
           <Note title={n.title} description={n.description} createdAt={n.createdAt} />
