@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dolzh\\source\\repos\\NotesService\\backend\\NotesService\\NotesService.csproj": {}
+    "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\NotesService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dolzh\\source\\repos\\NotesService\\backend\\NotesService\\NotesService.csproj": {
+    "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\NotesService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dolzh\\source\\repos\\NotesService\\backend\\NotesService\\NotesService.csproj",
+        "projectUniqueName": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\NotesService.csproj",
         "projectName": "NotesService",
-        "projectPath": "C:\\Users\\dolzh\\source\\repos\\NotesService\\backend\\NotesService\\NotesService.csproj",
+        "projectPath": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\NotesService.csproj",
         "packagesPath": "C:\\Users\\dolzh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dolzh\\source\\repos\\NotesService\\backend\\NotesService\\obj\\",
+        "outputPath": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dolzh\\AppData\\Roaming\\NuGet\\NuGet.Config",

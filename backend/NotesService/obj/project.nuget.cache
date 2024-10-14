@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2gBITgF/1mQ=",
+  "dgSpecHash": "H6fnNOiFSEw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dolzh\\source\\repos\\NotesService\\backend\\NotesService\\NotesService.csproj",
+  "projectFilePath": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\NotesService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dolzh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\dolzh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
