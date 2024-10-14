@@ -16,11 +16,6 @@ namespace NotesService.Controllers
         {
             _dbContext = dbContext;
         }
-        //[HttpGet]
-        //public IActionResult NoteIndex()
-        //{
-        //    return View();
-        //}
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateNoteRequest request, CancellationToken ct)
         {
@@ -63,16 +58,5 @@ namespace NotesService.Controllers
             var noteDtos = await notesQuery.Select(n => new NoteDto(n.Id, n.Title, n.Description, n.CreatedAt)).ToListAsync(cancellationToken: ct);
             return Ok(new GetNotesRespone(noteDtos));
         }
-        //[HttpGet]
-        //public async Task<IActionResult> Get1(CancellationToken ct)
-        //{
-        //    var notes = await _dbContext.Notes.ToListAsync(cancellationToken: ct);
-        //    var noteDtos = notes.Select(n => new NoteDto(n.Id, n.Title, n.Description, n.CreatedAt)).ToList();
-        //    return Ok(new GetNotesRespone(noteDtos));
-        //}
-        //private Expression<Func<Note,object>> GetSelectorKey(string sortItem)
-        //{
-
-        //}
     }
 }
