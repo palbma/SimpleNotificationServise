@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\notesservice\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|solutionrelative:notesservice\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\notesservice\\models\\notesdbcotext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|solutionrelative:notesservice\\models\\notesdbcotext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\notesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|solutionrelative:notesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\notesservice\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|solutionrelative:notesservice\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}|docker-compose.dcproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "NotesDbCotext.cs",
+              "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Models\\NotesDbCotext.cs",
+              "RelativeDocumentMoniker": "NotesService\\Models\\NotesDbCotext.cs",
+              "ToolTip": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Models\\NotesDbCotext.cs",
+              "RelativeToolTip": "NotesService\\Models\\NotesDbCotext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:30:38.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Dockerfile",
               "RelativeDocumentMoniker": "NotesService\\Dockerfile",
@@ -54,19 +71,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "NoteController.cs",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Controllers\\NoteController.cs",
               "RelativeDocumentMoniker": "NotesService\\Controllers\\NoteController.cs",
               "ToolTip": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Controllers\\NoteController.cs",
               "RelativeToolTip": "NotesService\\Controllers\\NoteController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T12:38:23.079Z"
+              "WhenOpened": "2024-10-13T12:38:23.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -74,12 +92,11 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-11T15:22:14.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T15:22:14.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": ".dockerignore",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\package.json",
               "RelativeDocumentMoniker": "package.json",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Program.cs",
               "RelativeDocumentMoniker": "NotesService\\Program.cs",

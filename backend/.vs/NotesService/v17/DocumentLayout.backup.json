@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|solutionrelative:notesservice\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\notesservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFE83B52-236A-4C69-A445-CFB76A211CF4}|NotesService\\NotesService.csproj|solutionrelative:notesservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}|docker-compose.dcproj|c:\\users\\dolzh\\source\\repos\\simplenoteservice\\simplenotificationservise\\backend\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1BDD54A8-282D-47FE-AC7E-8590F822ACCA}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -67,18 +63,6 @@
               "ViewState": "AgIAABgAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T12:38:23.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "NotesService\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "NotesService\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T12:38:20.914Z"
             },
             {
               "$type": "Document",
@@ -107,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\package.json",
               "RelativeDocumentMoniker": "package.json",
@@ -119,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -135,9 +119,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Program.cs",
               "RelativeDocumentMoniker": "NotesService\\Program.cs",
-              "ToolTip": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Program.cs*",
-              "RelativeToolTip": "NotesService\\Program.cs*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dolzh\\source\\repos\\SimpleNoteService\\SimpleNotificationServise\\backend\\NotesService\\Program.cs",
+              "RelativeToolTip": "NotesService\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T08:38:48.023Z",
               "EditorCaption": ""
